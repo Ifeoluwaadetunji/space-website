@@ -1,0 +1,354 @@
+
+   
+* {
+   margin: 0;
+   padding:0;
+}
+body {
+   background-image: url('./assets/destination/background-destination-desktop.jpg');
+    background-size: cover;
+}
+
+ .container {
+display: flex;
+justify-content: flex-end;
+align-items: flex-end;
+ }
+
+
+ li {
+    list-style: none;
+ }
+
+.d-item
+   {
+    text-transform: uppercase;
+    background: none;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+
+a:hover {
+    border-bottom: 2px solid white;
+}
+
+a:active {
+    border-bottom: 2px solid white;
+}
+
+.transform {
+    text-transform: uppercase;
+}
+.p-name {
+    font-size: 130px;
+}
+
+.p-text {
+    margin-bottom: 30px;
+}
+.hero-container {
+    position: absolute;
+width:30.9vw;
+height: 52.44vh;
+left: 57.78vw;
+top: 25.44vh;
+}
+
+hr{
+    width: 96%;
+    margin-bottom: 15px; 
+    opacity: 50%;
+}
+.first{
+    display: inline;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+.second {
+    display:inline;
+}
+.right-f {
+    margin-left: 75px;
+}
+
+.right-s {
+    margin-left: 100px;
+}
+.pick {
+    position: absolute;
+width: 27.96vw;
+height: 34px;
+left: 12.19vw;
+top: 10.68vh;
+z-index: 99;
+}
+.opac {
+    opacity: 50%;
+}
+
+.planet-image {
+    /* background-image: url(./assets/destination/image-moon.webp); */
+    position: absolute;
+width: 445px;
+height: 445px;
+left: 15.97vw;
+top: 25.44vh;
+animation: rotation 2s infinite linear;
+}
+
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+   
+/* Media Query for Tablets Ipads portrait mode */
+@media only screen 
+and (min-width: 481px) 
+and (max-width: 768px){
+    * {
+        margin: 0;
+        padding:0;
+     }
+ 
+body{
+    background-image: url(./assets/destination/background-destination-tablet.jpg);
+    background-size: cover;
+}
+
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+     }
+    
+    
+     li {
+        list-style: none;
+     }
+    
+    .d-item
+       {
+        text-transform: uppercase;
+        background: none;
+        margin-bottom: 15px;
+        margin-left: 15px;
+    }
+    
+    
+    a:hover {
+        border-bottom: 2px solid white;
+    }
+    
+    a:active {
+        border-bottom: 2px solid white;
+    }
+    
+    .transform {
+        text-transform: uppercase;
+    }
+
+
+    .p-name {
+        font-size: 100px;
+    }
+    
+    
+    .hero-container {
+        position: absolute;
+        width: 285.5px;
+        height: 34px;
+        left: 241px;
+        top: 573px;
+    }
+    
+    hr{
+        width: 96%;
+        margin-bottom: 15px; 
+        opacity: 50%;
+    }
+    .first{
+        display: inline;
+        text-transform: uppercase;
+        font-size: 10px;
+    }
+    .second {
+        display:inline;
+    }
+.p-name,.p-text{
+    margin: auto;
+}
+.p-text{
+    margin-bottom: 30px;
+}
+
+.first{
+    display: inline;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+.second {
+    display:inline;
+}
+.right-f {
+    margin-left: 75px;
+}
+
+.right-s {
+    margin-left: 100px;
+}
+.pick{
+   
+    position: absolute;
+width: 272px;
+height: 24px;
+left: 38.5px;
+top: 136px;
+}
+.planet-image{
+    position: absolute;
+width: 300px;
+height: 300px;
+left: 234px;
+top: 220px;
+animation: rotation 2s infinite linear;
+}
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+}
+@media only screen 
+and (min-width: 320px)
+and (max-width: 480px) 
+{
+
+    * {
+        margin: auto;
+        padding:0;
+     }
+ 
+body{
+    background-image: url('./assets/destination/background-destination-mobile.jpg');
+    background-size: cover;
+}
+
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+     }
+    
+    
+     li {
+        list-style: none;
+     }
+    
+    .d-item
+       {
+        text-transform: uppercase;
+        background: none;
+        margin-bottom: 15px;
+        margin-left: 15px;
+    }
+    
+    
+    a:hover {
+        border-bottom: 2px solid white;
+    }
+    
+    a:active {
+        border-bottom: 2px solid white;
+    }
+    
+    .transform {
+        text-transform: uppercase;
+    }
+
+
+    .p-name {
+        font-size: 70px;
+    }
+    
+    
+    .hero-container {
+        position: absolute;
+        width: 237.5px;
+        height: 28px;
+        left: 69px;
+        top: 400px;
+    }
+    
+    hr{
+        width: 96%;
+        margin-bottom: 15px; 
+        opacity: 50%;
+    }
+    .first{
+        display: inline;
+        text-transform: uppercase;
+        font-size: 10px;
+    }
+    .second {
+        display:inline;
+    }
+.p-name,.p-text{
+    margin: auto;
+}
+.p-text{
+    margin-bottom: 30px;
+}
+
+.first{
+    display: inline;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+.second {
+    display:inline;
+}
+.right-f {
+    margin-left: 75px;
+}
+
+.right-s {
+    margin-left: 100px;
+}
+.pick{
+    position: absolute;
+    width: 221px;
+    height: 19px;
+    left: 77.5px;
+    top: 88px;
+  
+}
+.planet-image{
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    left: 103px;
+    top: 139px;
+    animation: rotation 2s infinite linear;
+}
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+}

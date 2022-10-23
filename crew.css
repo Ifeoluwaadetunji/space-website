@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('./assets/crew/background-crew-desktop.jpg');
+}
+.block {
+    display: block;
+}
+.transform{
+    text-transform: uppercase;
+}
+.crew-img{
+    position: absolute;
+width: 39.5vw;
+height: 79.1vh;
+left: 51.03vw;
+top:22vh ;
+}
+.name {
+font-size: 2em;
+height:7.1vh ;
+width: 33.8vw;
+top: 50.2vh;
+left: 11.5vw;
+}
+.hero-text{
+    font-family: 'Courier New', Courier, monospace;
+    color:#D0D6F9;
+    line-height: 3.5vh;
+    width: 30.8vw;
+    height: 14.2vh;
+    left: 11.5vw;
+    top: 60.3vh;
+}
+.num,.commander {
+    opacity: 50%;
+}
+.meet
+{
+width: 19.86vw;
+height: 3.8vh;
+left: 11.56vw;
+top: 23.55vh;
+}
+.commander{
+    width: 14.86vw;
+    height: 4.11vh;
+    left: 11.49vw;
+    top: 44.44vh;
+}
+.slider{
+    display: flex;
+    width: 8.166vw;
+    height: 1.66vh;
+    left: 11.6vw;
+    top: 74.5vh;
+}
+.s-item {
+    opacity: 50%;
+    list-style-type: none;
+    margin-left: 6px;
+    font-size: 64px;
+}
+
+.s-item:hover{
+    opacity: 100%;
+    cursor: pointer;
+}
+
+.s-item:active{
+    opacity: 100%;
+    cursor: pointer;
+}
+
+  
+
+
+
+
+
+
+
+
+/* for ipad and tablets portrait mode  */
+@media only screen 
+and (min-width: 481px) 
+and (max-width: 768px){
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./assets/crew/background-crew-tablet.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.crew-img{
+    position: absolute;
+    width: 456.37px;
+    height: 572px;
+    left: 155.85px;
+    top: 396px;
+    
+    
+}
+.commander{
+    position: absolute;
+    width: 458px;
+    height: 232px;
+    left: 155px;
+    top: 120px;
+}
+
+.name{
+    position: absolute;
+    width: 458px;
+    height: 232px;
+    left: 155px;
+    top: 150px;
+    
+}
+.hero-text{
+
+    position: absolute;
+    width: 458px;
+    height: 232px;
+    left: 155px;
+    top: 190px;
+}
+.meet{
+    position: absolute;
+width: 204px;
+height: 24px;
+left: 38.5px;
+top: 60px;
+
+}
+.slider{
+    position: absolute;
+    width: 458px;
+    height: 232px;
+    left: 300px;
+    top: 330px;
+}
+
+}
+
+
+
+
+/* for mobile devices and small screen  */
+ 
+@media only screen 
+and (min-width: 320px)
+and (max-width: 480px) 
+ {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-image: url('./assets/crew/background-crew-mobile.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .meet{
+        position: absolute;
+        width:42.6vw ;
+        height: 2.67vh;
+        top: 12.39vh;
+        left:28vw ;
+    }
+    
+    .crew-img{
+        position: absolute;
+        width:87.2vw ;
+        height:31.41vh;
+        top: 19.57vh;
+        left:6.4vw ;
+    }
+
+.img-line {
+    position: absolute;
+    width: 327px;
+   top: 51vh;
+   left: 30px;
+   height: 2px;
+   z-index: 1;
+   opacity: 60%;
+}
+.slider{
+    position: absolute;
+    top: 47.4vh;
+    left: 40vw;
+    z-index: 2;
+}
+
+.commander{
+    position: absolute;
+    top: 59.71vh;
+    left: 38.93vw;
+    width: 40vw;
+}
+
+.name{
+    position: absolute;
+    top: 61.8vh;
+    left: 29.33vw;
+    width:60vw;
+}
+
+.hero-text{
+    position: absolute;
+    width: fit-content;
+    top: 70vh;
+}
+
+ }

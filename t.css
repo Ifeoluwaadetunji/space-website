@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('./assets/technology/background-technology-desktop.jpg');
+}
+
+.no-cont{
+    width:5.55vw ;
+    height: 8.88vh;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-bottom: 3.56vh;
+}
+
+.no{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-transform: uppercase;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+    z-index: 3;
+
+}
+
+.no-cont:hover{
+    background: rgba(255,255,255,0.1);
+    
+    cursor: pointer;
+}
+.nav-1{
+    position: absolute;
+    top:38.1vh ;
+    left:11.45vw ;
+}
+.nav-2 {
+    position:absolute;
+    top:50.55vh ;
+    left: 11.45vw;
+}
+
+.nav-3 {
+    position: absolute;
+    top: 63vh;
+    left: 11.45vw;
+}
+.num{
+    opacity: 50%;
+}
+.space-t {
+    position: absolute;
+    width: 23vw;
+    height: 3.78vh;
+    top: 19.11vh;
+    left: 11.56vw;
+
+}
+.transform {
+    text-transform: uppercase;
+}
+
+.t-name{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.t-container {
+    position: absolute;
+    width: 32.64vw;
+    height: 33.67vh;
+    top: 38.11vh;
+    left: 22.57vw;
+}
+
+.term{
+    margin-bottom: 10px;
+}
+
+.t-img {
+    position: absolute;
+    background-image: url('./assets/technology/image-space-capsule-landscape.jpg');
+    width: 35.76vw;
+    height:58.56vh ;
+    top:25.78vh ;
+    left:64.24vw ;
+}
+
+
+
+
+
+
+
+
+
+
+/* Media Query for Tablets Ipads portrait mode */
+@media only screen 
+and (min-width: 481px) 
+and (max-width: 768px){
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url('./assets/technology/background-technology-tablet.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+    .space-t {
+        position: absolute;
+        width: 28.26vw;
+        height: 2.34vh;
+        top: 13.28vh;
+        left:5.01vw ;
+    }
+
+    .t-img{
+        /* background-image: url('./assets/technology/image-space-capsule-landscape.jpg'); */
+        position: absolute;
+        width: 100vw;
+        height: 30.27vh;
+        top:21.48vh ;
+        left: 0vw;
+    }
+
+    
+
+    .t-container {
+        position: absolute;
+        width:59.64vw ;
+        height:23.14vh ;
+        top: 67.38vh;
+        left: 26.18vw;
+    }
+
+    .nav-1{
+       position: absolute;
+       width: 7.81vw;
+       height: 5.86vh;
+       top: 57.22vh;
+       left: 36.32vw;
+    }
+
+    .nav-2{
+        position: absolute;
+        width: 7.81vw;
+        height: 5.86vh;
+        top: 57.22vh;
+        left: 45.5vw;
+    }
+
+    .nav-3{
+        position: absolute;
+        width: 7.81vw;
+        height: 5.86vh;
+        top: 57.22vh;
+        left: 54.7vw;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen 
+and (min-width: 320px)
+and (max-width: 480px) 
+ {
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: url('./assets/technology/background-technology-mobile.jpg');
+
+}
+
+.space-t{
+    position: absolute;
+    width: 50vw;
+    height:2.67vh ;
+    top:12.46vh ;
+    left: 26.69vw;
+}
+.t-img{
+    position: absolute;
+    /* background-image: url('./assets/technology/image-space-capsule-landscape.jpg'); */
+    width:100vw ;
+    height:23.94vh ;
+    top:19.58vh ;
+    left:0vw ;
+}
+
+.nav-1{
+    position: absolute;
+width: 10.67vw;
+height: 5.63vh;
+top: 35.31vh;
+left: 29.87vw;
+}
+
+.nav-2{
+    position: absolute;
+    width: 10.67vw;
+    height: 5.63vh;
+    top: 35.31vh;
+    left: 45.87vw;
+}
+
+.nav-3{
+    position: absolute;
+    width: 10.67vw;
+    height: 5.63vh;
+    top: 35.31vh;
+    left:61.87vw ;
+}
+.t-container {
+    width:87.2vw ;
+    height: 30.99vh;
+    top: 57.61vh;
+    left: 6.4vw;
+}
+
+ }
