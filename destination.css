@@ -94,7 +94,7 @@ width: 445px;
 height: 445px;
 left: 15.97vw;
 top: 25.44vh;
-animation: rotation 2s infinite linear;
+animation: rotation 100s infinite linear;
 }
 
 
@@ -217,7 +217,7 @@ width: 300px;
 height: 300px;
 left: 234px;
 top: 220px;
-animation: rotation 2s infinite linear;
+animation: rotation 100s infinite linear;
 }
 @keyframes rotation {
     from {
@@ -340,7 +340,8 @@ body{
     height: 170px;
     left: 103px;
     top: 139px;
-    animation: rotation 2s infinite linear;
+    animation: rotation 100s infinite linear;
+   
 }
 @keyframes rotation {
     from {
